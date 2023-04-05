@@ -29,7 +29,7 @@ header{/*Pour centraliser l'image ,la taille , hauteur,*/
 }
 ul{
     list-style: none;
-    float: right;
+    float:right ;
     display: flex;
     margin-top: 20px;
 }
