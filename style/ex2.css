@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 500px; 
+  
+    margin: auto;
+    margin-top: 50px;
+}
+.logoresto{
+   display: flex;
+}
+.logoresto img{
+    width: 400px;
+    height: 450px;
+}
+.right{
+    width: 40%;
+    float: right;
+
+}
+
+.login{
+ 
+    background-color: #fff;
+   width: 45%;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.right img{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+  
+    margin: 15px;
+    border: 1px solid #000 ;
+    border-radius: 20px;
+}
+#login{
+    padding: 12px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+
+}
