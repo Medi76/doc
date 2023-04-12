@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table{
+   height: 300px;
+   width: 600px;
+   border-top-right-radius: 12px;
+   border-top-left-radius: 12px;
+   overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    position: relative;
+    
+}
+table::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: #031f03;
+}
+tr:nth-child(even){
+    color: rgb(21, 230, 21);
+    background-color: #cccccc;
+}
+
+
+
+.green{
+    background-color: rgb(13, 117, 13);
+    color: #fff;
+    padding: 10px;
+    border: 1px ;
+  
+}
+.green th{
+    margin: 10px;
+}
